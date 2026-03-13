@@ -1,0 +1,187 @@
+/* CSS file for landing-page-1.html */
+
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    background-color: white;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.navbar,
+.hero,
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.hero p,
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-links li {
+    display: flex;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.header-links li:hover {
+    display: flex;
+    list-style-type: none;
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 10px 0px;
+    padding: 10px 80px 40px 80px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.primary-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.primary-button:hover {
+    background-color: white;
+    color: #3882F6;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-image {
+    max-width: 600px;
+}
+
+/* Info Section */
+.infosec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infosec h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-items {
+    display: flex;
+    justify-content: center;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    max-width: min-content;
+    padding: 20px;
+    font-weight: 400;
+    color: #1F2937;
+    text-align: center;
+}
+
+/* Quote Section */
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p {
+    max-width: 700px;
+    font-style: italic;
+}
+
+.quote-name {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: end;
+}
+
+/* Call to Action Section */
+
+.cta {
+    background-color: #3882F6;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px 80px;
+    color: #F9FAF8;
+}
+
+.cta button {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 25px;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.cta button:hover {
+    background-color: white;
+    color: #3882F6;
+    padding: 8px 25px;
+    border: 1px solid;
+    border-color: #3882F6;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+.footer p {
+    font-size: 12px;
+    margin: 0px;
+    padding: 80px;
+    text-align: center;
+}
