@@ -37,6 +37,11 @@ h2 {
 h1 {
     color: white;
     font-weight: 400;
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: 300;
 }
 
 .img-banner {
@@ -44,9 +49,10 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    width: 60vw;
+    width: 50vw;
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 .title {
@@ -54,13 +60,57 @@ h1 {
     padding: 1.5rem;
     position: relative;
     top: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .credits {
-    color: white;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: flex-end;
+    justify-content: center;
+    font-size: small;
 }
 
 .credits a {
-    color: lightblue;
-    align-self: flex-end;
+    color: rgb(255, 172, 117);
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.padding {
+    padding: 4rem 2.5rem;
+}
+
+.paragraph {
+    padding-top: 6rem;
+    background: rgb(252, 244, 241);
+    font-weight: 700;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+.form-row {
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.form-row input {
+    width: 100%;
+    max-width: 200px;
 }

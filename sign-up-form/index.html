@@ -11,7 +11,7 @@
 <body>
     <section class="img-banner">
         <div class="title">
-            <div class="icon"></div>
+            <img src="/assets/svgs/travel_explore.svg" alt="travel icon">
             <h1>Litora</h1>
         </div>
 
@@ -23,33 +23,39 @@
     </section>
 
     <section class="signup">
-        <div class="paragraph">
+        <div class="paragraph padding">
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus
                 ex sapien vitae pellentesque sem placerat. In id cursus mi pretium
-                tellus duis convallis.</p>
+                tellus <em>duis</em> convallis.</p>
+            <br>
             <p>Tempus leo eu aenean.</p>
         </div>
-        <div class="form-section">
+        <div class="form-section padding">
             <h2>Let's do this!</h2>
             <form action="example.com/path" method="post">
-                <label for="first_name">First Name</label>
-                <input type="text" id="first_name" name="first_name">
+                <div class="form-row">
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name" name="first_name">
 
-                <label for="last_name">Last Name</label>
-                <input type="text" id="last_name" name="last_name">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="last_name" name="last_name">
+                </div>
 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email">
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
 
-                <label for="phone_number">Phone Number</label>
-                <input type="tel" id="phone_number" name="phone_number">
+                    <label for="phone_number">Phone Number</label>
+                    <input type="tel" id="phone_number" name="phone_number">
+                </div>
 
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password">
+                <div class="form-row">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
 
-                <label for="confirm_password">Confirm Password</label>
-                <input type="password" id="confirm_password">
-
+                    <label for="confirm_password">Confirm Password</label>
+                    <input type="password" id="confirm_password">
+                </div>
                 <button type="submit">Create Account</button>
             </form>
 
