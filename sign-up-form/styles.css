@@ -89,7 +89,7 @@ a:hover {
 }
 
 a:visited {
-    color: rgb(180, 98, 43);
+    color: rgb(233, 125, 54);
 }
 
 .signup {
@@ -165,4 +165,25 @@ button[type="submit"]:hover {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+}
+
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+
+    .img-banner {
+        height: 30vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        position: static;
+        width: 100%;
+        margin: auto;
+    }
 }
